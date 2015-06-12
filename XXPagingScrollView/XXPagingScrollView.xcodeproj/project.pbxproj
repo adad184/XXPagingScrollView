@@ -20,12 +20,12 @@
 		ED0972971B296D88000F0616 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = ED09728B1B296D88000F0616 /* photo.png */; };
 		ED0972981B296D88000F0616 /* photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED09728C1B296D88000F0616 /* photo@2x.png */; };
 		ED0972991B296D88000F0616 /* photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED09728D1B296D88000F0616 /* photo@3x.png */; };
+		ED09729B1B2A7A32000F0616 /* XXPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09729A1B2A7A32000F0616 /* XXPagingScrollView.swift */; };
 		ED7215CC1B28305400076B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7215CB1B28305400076B31 /* AppDelegate.swift */; };
 		ED7215CE1B28305400076B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7215CD1B28305400076B31 /* ViewController.swift */; };
 		ED7215D31B28305400076B31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7215D21B28305400076B31 /* Images.xcassets */; };
 		ED7215D61B28305400076B31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7215D41B28305400076B31 /* LaunchScreen.xib */; };
 		ED7215E21B28305400076B31 /* XXPagingScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7215E11B28305400076B31 /* XXPagingScrollViewTests.swift */; };
-		ED7215ED1B28309400076B31 /* XXPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7215EC1B28309400076B31 /* XXPagingScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +54,7 @@
 		ED09728B1B296D88000F0616 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		ED09728C1B296D88000F0616 /* photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@2x.png"; sourceTree = "<group>"; };
 		ED09728D1B296D88000F0616 /* photo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@3x.png"; sourceTree = "<group>"; };
+		ED09729A1B2A7A32000F0616 /* XXPagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XXPagingScrollView.swift; path = ../../Classes/XXPagingScrollView.swift; sourceTree = "<group>"; };
 		ED7215C61B28305400076B31 /* XXPagingScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXPagingScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7215CA1B28305400076B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7215CB1B28305400076B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		ED7215DB1B28305400076B31 /* XXPagingScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXPagingScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7215E01B28305400076B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7215E11B28305400076B31 /* XXPagingScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XXPagingScrollViewTests.swift; sourceTree = "<group>"; };
-		ED7215EC1B28309400076B31 /* XXPagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXPagingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +183,7 @@
 		ED7215EB1B28306C00076B31 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				ED7215EC1B28309400076B31 /* XXPagingScrollView.swift */,
+				ED09729A1B2A7A32000F0616 /* XXPagingScrollView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -352,7 +352,7 @@
 			files = (
 				ED7215CE1B28305400076B31 /* ViewController.swift in Sources */,
 				ED7215CC1B28305400076B31 /* AppDelegate.swift in Sources */,
-				ED7215ED1B28309400076B31 /* XXPagingScrollView.swift in Sources */,
+				ED09729B1B2A7A32000F0616 /* XXPagingScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
