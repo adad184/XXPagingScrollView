@@ -44,6 +44,3 @@ public var scrollView:UIScrollView
 ```
 
 check more detail in the demonstration
-
-
-@end
