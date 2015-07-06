@@ -53,7 +53,6 @@ public class XXPagingScrollView: UIView {
     }
     
     public lazy var scrollView:UIScrollView! = {
-        println("what the fuck")
         var v = XXReachableScrollView()
         v.clipsToBounds = false
         v.pagingEnabled = true
