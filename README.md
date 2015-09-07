@@ -1,9 +1,8 @@
 XXPagingScrollView
 ============
-
-[![Total views](https://sourcegraph.com/api/repos/github.com/adad184/XXPagingScrollView/.counters/views.png)](https://sourcegraph.com/github.com/adad184/XXPagingScrollView)
-[![Views in the last 24 hours](https://sourcegraph.com/api/repos/github.com/adad184/XXPagingScrollView/.counters/views-24h.png)](https://sourcegraph.com/github.com/adad184/XXPagingScrollView)
-[![Cocoapods](https://cocoapod-badges.herokuapp.com/v/XXPagingScrollView/badge.png)](http://cocoapods.org/?q=XXPagingScrollView)
+[![CocoaPods](https://img.shields.io/cocoapods/v/XXPagingScrollView.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/p/XXPagingScrollView.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/l/XXPagingScrollView.svg)]()
 
 Paged scrollView with custom paging width
 
