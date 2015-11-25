@@ -71,10 +71,6 @@ public class XXPagingScrollView: UIView {
         self.setup()
     }
     
-    public override func addSubview(view: UIView) {
-        self.scrollView.addSubview(view);
-    }
-    
     private func setup() {
         
         self.addSubview(self.scrollView)
