@@ -1,0 +1,6 @@
+framework module XXPlaceHolder {
+  umbrella header "XXPlaceHolder-umbrella.h"
+
+  export *
+  module * { export * }
+}
