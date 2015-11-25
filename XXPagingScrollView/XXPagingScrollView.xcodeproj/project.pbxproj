@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66FC49B4805DC409CDCE654D /* Pods_XXPagingScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2903A08436E94EF00B27BD6 /* Pods_XXPagingScrollView.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		66FC49B4805DC409CDCE654D /* Pods_XXPagingScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2903A08436E94EF00B27BD6 /* Pods_XXPagingScrollView.framework */; };
 		ED09728E1B296D88000F0616 /* conf.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0972821B296D88000F0616 /* conf.png */; };
 		ED09728F1B296D88000F0616 /* conf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0972831B296D88000F0616 /* conf@2x.png */; };
 		ED0972901B296D88000F0616 /* conf@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0972841B296D88000F0616 /* conf@3x.png */; };
@@ -20,7 +20,7 @@
 		ED0972971B296D88000F0616 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = ED09728B1B296D88000F0616 /* photo.png */; };
 		ED0972981B296D88000F0616 /* photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED09728C1B296D88000F0616 /* photo@2x.png */; };
 		ED0972991B296D88000F0616 /* photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED09728D1B296D88000F0616 /* photo@3x.png */; };
-		ED53860A1B4A204C00B0AA0A /* XXPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5386091B4A204C00B0AA0A /* XXPagingScrollView.swift */; };
+		ED6028951C055937005F1711 /* XXPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6028941C055937005F1711 /* XXPagingScrollView.swift */; };
 		ED7215CC1B28305400076B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7215CB1B28305400076B31 /* AppDelegate.swift */; };
 		ED7215CE1B28305400076B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7215CD1B28305400076B31 /* ViewController.swift */; };
 		ED7215D31B28305400076B31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7215D21B28305400076B31 /* Images.xcassets */; };
@@ -54,7 +54,7 @@
 		ED09728B1B296D88000F0616 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		ED09728C1B296D88000F0616 /* photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@2x.png"; sourceTree = "<group>"; };
 		ED09728D1B296D88000F0616 /* photo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@3x.png"; sourceTree = "<group>"; };
-		ED5386091B4A204C00B0AA0A /* XXPagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XXPagingScrollView.swift; path = ../../Classes/XXPagingScrollView.swift; sourceTree = "<group>"; };
+		ED6028941C055937005F1711 /* XXPagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXPagingScrollView.swift; sourceTree = "<group>"; };
 		ED7215C61B28305400076B31 /* XXPagingScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXPagingScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7215CA1B28305400076B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7215CB1B28305400076B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -121,11 +121,20 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		ED6028931C055937005F1711 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED6028941C055937005F1711 /* XXPagingScrollView.swift */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
 		ED7215BD1B28305400076B31 = {
 			isa = PBXGroup;
 			children = (
+				ED6028931C055937005F1711 /* Classes */,
 				ED0972811B296A84000F0616 /* Images */,
-				ED7215EB1B28306C00076B31 /* Classes */,
 				ED7215C81B28305400076B31 /* XXPagingScrollView */,
 				ED7215DE1B28305400076B31 /* XXPagingScrollViewTests */,
 				ED7215C71B28305400076B31 /* Products */,
@@ -180,14 +189,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ED7215EB1B28306C00076B31 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				ED5386091B4A204C00B0AA0A /* XXPagingScrollView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -235,7 +236,9 @@
 		ED7215BE1B28305400076B31 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = LJC;
 				TargetAttributes = {
 					ED7215C51B28305400076B31 = {
@@ -352,7 +355,7 @@
 			files = (
 				ED7215CE1B28305400076B31 /* ViewController.swift in Sources */,
 				ED7215CC1B28305400076B31 /* AppDelegate.swift in Sources */,
-				ED53860A1B4A204C00B0AA0A /* XXPagingScrollView.swift in Sources */,
+				ED6028951C055937005F1711 /* XXPagingScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +410,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -422,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -461,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,6 +481,7 @@
 				INFOPLIST_FILE = XXPagingScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adad184.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -489,6 +494,7 @@
 				INFOPLIST_FILE = XXPagingScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adad184.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +513,7 @@
 				);
 				INFOPLIST_FILE = XXPagingScrollViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adad184.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXPagingScrollView.app/XXPagingScrollView";
 			};
@@ -522,6 +529,7 @@
 				);
 				INFOPLIST_FILE = XXPagingScrollViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adad184.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXPagingScrollView.app/XXPagingScrollView";
 			};

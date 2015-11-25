@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import XXPlaceHolder
 
 class ViewController: UIViewController, UIScrollViewDelegate {
     
@@ -41,12 +42,12 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         let iconSize:CGSize = CGSizeMake(40, 40)
         self.view.addSubview(self.tinderScrollView)
         self.tinderScrollView.snp_makeConstraints { (make) -> Void in
-            make.left.top.right.equalTo(self.view).insets(UIEdgeInsetsMake(20, 0, 0, 0))
+            make.left.top.right.equalTo(self.view).inset(UIEdgeInsetsMake(20, 0, 0, 0))
             make.height.equalTo(44)
         }
         self.tinderScrollView.scrollView.delegate = self;
         self.tinderScrollView.pagingWidth = (UIScreen.mainScreen().bounds.width - 60)/2
-        for (index,value) in enumerate(icons) {
+        for (index,value) in icons.enumerate() {
             let iv = UIImageView(frame: CGRectMake(0, 0, iconSize.width, iconSize.height))
             self.tinderScrollView.scrollView.addSubview(iv)
             iv.image = UIImage(named: value)?.imageWithRenderingMode(.AlwaysTemplate)
@@ -61,7 +62,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         let cardCount:CGFloat = 10
         self.view.addSubview(self.pagingScrollView)
         self.pagingScrollView.snp_makeConstraints { (make) -> Void in
-            make.edges.equalTo(self.view).insets(UIEdgeInsetsMake(64, 0, 0, 0))
+            make.edges.equalTo(self.view).inset(UIEdgeInsetsMake(64, 0, 0, 0))
         }
         self.pagingScrollView.pagingWidth  = cardSize.width
         self.pagingScrollView.pagingHeight = cardSize.height
@@ -76,13 +77,14 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         }
         self.pagingScrollView.scrollView.contentSize = CGSizeMake(cardSize.width*cardCount, cardSize.height)
         
+        self.pagingScrollView.showPlaceHolder()
     }
     
     func randonColor() -> UIColor {
         
-        var randomR:CGFloat = CGFloat(drand48())
-        var randomG:CGFloat = CGFloat(drand48())
-        var randomB:CGFloat = CGFloat(drand48())
+        let randomR:CGFloat = CGFloat(drand48())
+        let randomG:CGFloat = CGFloat(drand48())
+        let randomB:CGFloat = CGFloat(drand48())
         
         return UIColor(red: randomR, green: randomG, blue: randomB, alpha: 1.0)
         
@@ -119,14 +121,14 @@ class ViewController: UIViewController, UIScrollViewDelegate {
             return UIColor(red: (redStart - ((redStart-redFinish) * percent)) , green: (greenStart - ((greenStart-greenFinish) * percent)) , blue: (blueStart - ((blueStart-blueFinish) * percent)) , alpha: (alphaStart - ((alphaStart-alphaFinish) * percent)));
         }
         
-        for (index,value) in enumerate(self.tinderScrollView.scrollView.subviews as! [UIImageView]) {
+        for (_,value) in (self.tinderScrollView.scrollView.subviews as! [UIImageView]).enumerate() {
             
             let iv = value as UIImageView
             
             var percent:CGFloat = fabs((iv.center.x - (self.tinderScrollView.scrollView.contentOffset.x+self.tinderScrollView.pagingWidth/2))/self.tinderScrollView.pagingWidth)
             percent = percent > 1 ? 1 : percent
             
-            var scale = self.maxTinderScale - (self.maxTinderScale-self.minTinderScale) * percent
+            let scale = self.maxTinderScale - (self.maxTinderScale-self.minTinderScale) * percent
             iv.transform = CGAffineTransformMakeScale(scale, scale)
             iv.tintColor = getColor(percent)
         }

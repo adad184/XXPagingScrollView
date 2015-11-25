@@ -7,326 +7,421 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		247D035AA60BD4155A108A28 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F2731FC055712F59C5FBC7 /* View+SnapKit.swift */; };
-		3DCD22EC957D42D8818F5E6E /* Pods-XXPagingScrollView-SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D4F6EF31A3C7387039787D /* Pods-XXPagingScrollView-SnapKit-dummy.m */; };
-		42C9EDB31C1033237E84CD67 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3929FE6D55D82512CEC76 /* Debugging.swift */; };
-		499D7E84D5AEA4EAFA7FA3B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33992DD31A929D75EE8BAB76 /* Foundation.framework */; };
-		655D399D6B81CBA05288B349 /* Pods-XXPagingScrollView-SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E60DE6745FFC53C8D03D10 /* Pods-XXPagingScrollView-SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8195ECD6112D0CAAC49DEDB3 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4566E8AEF53812C6B711F2F /* ConstraintDescription.swift */; };
-		84294CF6155244D4B2BE31BF /* Pods-XXPagingScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B0B4F9972C838E7840CA48 /* Pods-XXPagingScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		865C98803E21999DF994BC93 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769B3D4FEBDC926B079FAE22 /* ConstraintMaker.swift */; };
-		8C5139C1651261A02E4E7C9F /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B77E0EF764C1A656463970A /* ViewController+SnapKit.swift */; };
-		95E0F0789668DA0871572A32 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC6BA45CD2255A19E1F66A /* LayoutConstraint.swift */; };
-		AB35459AE33E795DF56E376E /* Pods-XXPagingScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47DD4BDDA9757DD977D3B5 /* Pods-XXPagingScrollView-dummy.m */; };
-		B0A06EFE2A2993A19B341EC6 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF5B4C5C199FE11E498AE2 /* Constraint.swift */; };
-		C405FD21F8756D4FC814AF76 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE22D549CEE8439966F201 /* ConstraintAttributes.swift */; };
-		C462715122AE363B739EDD90 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC4F90287B132510D646D0 /* ConstraintItem.swift */; };
-		DBE47A591B9AA49C7AE4E978 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025D5B65862CC0DE5CFC115 /* EdgeInsets.swift */; };
-		DCBAA9B37C63E88F42B81900 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB107F8E9C3D36D92CA134FD /* ConstraintRelation.swift */; };
-		E852F5583B63BB9AF9689A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33992DD31A929D75EE8BAB76 /* Foundation.framework */; };
-		FD26693F08DF75A2CE675A7E /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EDA3B8A6E27D3BBB363EBB /* SnapKit.swift */; };
+		028AB08BBBAA5653EF45970B19111E0C /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D24BE55F6FDD2C7CD18B9C9AC7D47 /* Debugging.swift */; };
+		0B502E985B40B35D6752C435B93FD0C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		11FC12A9B0E6FEDB3B26F3F1084CD8CE /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698637516E96DDB07FE407424C7FA86 /* SnapKit.swift */; };
+		191EDB90014D64F20AF5FD4BBE346CF9 /* Pods-XXPagingScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8B959933940EFD8A2476D69A4539B9 /* Pods-XXPagingScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C29E85736D3F42366F2C17AAD5BDB72 /* XXPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CF2E1C4B74C2D1BF3370CB8237089C /* XXPlaceHolder.swift */; };
+		43974957AD79E840348FC661CB4E929E /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB898A2F8CD3A524AA388DFC8561A /* ConstraintRelation.swift */; };
+		446673D043806CD6E4FC5642896107C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		4DAD509D2F7BA5485F6EDF1D9ED237CA /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7397EDD6D4324ABA493F65C791A50E6B /* View+SnapKit.swift */; };
+		5967135C0D97C2CB21F86B010847152A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1663AFF6727DAA26157A567EA5C133A3 /* LayoutConstraint.swift */; };
+		63B2E7775D457BE3BC3BAB3D0E45F46D /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C9DB1DAC1E5667D1A28A2F11780C3 /* ViewController+SnapKit.swift */; };
+		78ABBF4735F58695A08D9E0C9913E42B /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814F7D5C25473729F4E1F27C7CE8601 /* Constraint.swift */; };
+		78B3F63AB151CC00D920FFBD50D3393C /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838D9B7D9AA3F2FA840FA087EEDBF0DA /* ConstraintDescription.swift */; };
+		7A6253404ACF5BC0EF9DBC46C622D505 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		86815EE3A8E73035E2E153DF313BEAB9 /* XXPlaceHolder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C306AA2894DB244E27B2D2787B30363E /* XXPlaceHolder-dummy.m */; };
+		88CA5FB472918A450F0D932A30A9182E /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C877D444B3B6150D5D23A960A5DD1 /* ConstraintItem.swift */; };
+		89896E5917D4C9C3558D6BE5E147F79A /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF66EE371FFC2C547BB74EF1AF93BF /* EdgeInsets.swift */; };
+		B8A8FCCB32593616A07A31A4DD524E70 /* XXPlaceHolder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 582639193AB66F57BAC6A9665909A78D /* XXPlaceHolder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C97B7538B7E270E5506C343C8E0DE9EB /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2749F6000A96B20D010BC8172BB0500E /* SnapKit-dummy.m */; };
+		DD8DF1D3E17801E3309821ED4B4B6CC0 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A5607865051D4F465FB3A3DE0267A7 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEF22FADD55C342CC5F3AC3D46DF0299 /* Pods-XXPagingScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78237E6333481EBF6C23775B50DDD4A5 /* Pods-XXPagingScrollView-dummy.m */; };
+		E33B0CA8AD2CC53992942FABDD296867 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48CD66D613721E3FBE670CEF677D7E3 /* ConstraintAttributes.swift */; };
+		EA7B253F41129AAD1E39355AB60A28E3 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B321B62AD33A94A600F00AD8E94A6 /* ConstraintMaker.swift */; };
+		F4BB67017D9EAFC3B15299B438C2E7BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		113FEE96677200E286D6EFAC /* PBXContainerItemProxy */ = {
+		6C2542CC17A65215B1D4F16C3F99C8CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4FD044CF16CF6E7034CFB7A3 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4554B6894285D5EA7AB91208;
-			remoteInfo = "Pods-XXPagingScrollView-SnapKit";
+			remoteGlobalIDString = 87031406C6975D7E40B14C4AFB6A43E4;
+			remoteInfo = SnapKit;
+		};
+		EF3530C9389380BAF62B152BBE3B58AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793722FC747D3B0E7721C61C50294E0C;
+			remoteInfo = XXPlaceHolder;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09D4F6EF31A3C7387039787D /* Pods-XXPagingScrollView-SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXPagingScrollView-SnapKit-dummy.m"; sourceTree = "<group>"; };
-		18A6F60ED8AD333B9ED3F244 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1B77E0EF764C1A656463970A /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
-		226F441FE1AC5FCCA08F1A80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24B4EDB46712FA0A87C974FA /* Pods-XXPagingScrollView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXPagingScrollView-frameworks.sh"; sourceTree = "<group>"; };
-		28ADD602326A08BB689B18E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33992DD31A929D75EE8BAB76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		351E85D045016E627F5A1D1A /* Pods-XXPagingScrollView-SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XXPagingScrollView-SnapKit.modulemap"; sourceTree = "<group>"; };
-		3949AFCA5B2958430E23F3BF /* Pods_XXPagingScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXPagingScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B616987EDAAC42D58EE80BD /* Pods-XXPagingScrollView-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXPagingScrollView-environment.h"; sourceTree = "<group>"; };
-		4113E56E2AE23CE59BD6ADE7 /* Pods-XXPagingScrollView-SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXPagingScrollView-SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		46BEAA027750EE664CE540B6 /* Pods-XXPagingScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XXPagingScrollView.modulemap"; sourceTree = "<group>"; };
-		6025D5B65862CC0DE5CFC115 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
-		66EDA3B8A6E27D3BBB363EBB /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
-		67E3929FE6D55D82512CEC76 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		68F2731FC055712F59C5FBC7 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
-		74B37CBDA473BEDEC540886D /* Pods-XXPagingScrollView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXPagingScrollView-resources.sh"; sourceTree = "<group>"; };
-		769B3D4FEBDC926B079FAE22 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		7F19E030964B78B2F1224DA1 /* Pods-XXPagingScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPagingScrollView.debug.xcconfig"; sourceTree = "<group>"; };
-		804E86A864E5454C9248C8C3 /* Pods-XXPagingScrollView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXPagingScrollView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82AF5B4C5C199FE11E498AE2 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
-		86B0B4F9972C838E7840CA48 /* Pods-XXPagingScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXPagingScrollView-umbrella.h"; sourceTree = "<group>"; };
-		88DC6BA45CD2255A19E1F66A /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
-		959694EA8EABCD4A10276D3B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A361B15A30DF91022E26BFEE /* Pods-XXPagingScrollView-SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPagingScrollView-SnapKit.xcconfig"; sourceTree = "<group>"; };
-		A4566E8AEF53812C6B711F2F /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		B86A6AD490B8130CC0BC3718 /* Pods-XXPagingScrollView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXPagingScrollView-acknowledgements.plist"; sourceTree = "<group>"; };
-		BF47DD4BDDA9757DD977D3B5 /* Pods-XXPagingScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXPagingScrollView-dummy.m"; sourceTree = "<group>"; };
-		C1E60DE6745FFC53C8D03D10 /* Pods-XXPagingScrollView-SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXPagingScrollView-SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		C656237ABF1FA21337F99D43 /* Pods-XXPagingScrollView-SnapKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPagingScrollView-SnapKit-Private.xcconfig"; sourceTree = "<group>"; };
-		D0FC4F90287B132510D646D0 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		D9CE22D549CEE8439966F201 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		EB107F8E9C3D36D92CA134FD /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
-		FA9A5F7E6D524F664BD0C555 /* Pods-XXPagingScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPagingScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		0351E4D590F87198726AB28E91EF0FE9 /* Pods-XXPagingScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPagingScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		05BF66EE371FFC2C547BB74EF1AF93BF /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		16027708FB6F890B85A78982C9936D04 /* XXPlaceHolder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXPlaceHolder.xcconfig; sourceTree = "<group>"; };
+		1663AFF6727DAA26157A567EA5C133A3 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		173013BD48329F6FD04D271CC181AB0C /* XXPlaceHolder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXPlaceHolder-prefix.pch"; sourceTree = "<group>"; };
+		1814F7D5C25473729F4E1F27C7CE8601 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		19E77F0BE03102F1D949C6FC8030113C /* Pods-XXPagingScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XXPagingScrollView.modulemap"; sourceTree = "<group>"; };
+		213F2A2C3C20949D3BB085E0B72468B2 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		2749F6000A96B20D010BC8172BB0500E /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		4698637516E96DDB07FE407424C7FA86 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		582639193AB66F57BAC6A9665909A78D /* XXPlaceHolder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXPlaceHolder-umbrella.h"; sourceTree = "<group>"; };
+		5B5C877D444B3B6150D5D23A960A5DD1 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		6DE0135EEB35493EB6DFB3F3B7AF2095 /* XXPlaceHolder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XXPlaceHolder.modulemap; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		709FB898A2F8CD3A524AA388DFC8561A /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		7397EDD6D4324ABA493F65C791A50E6B /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		752C9DB1DAC1E5667D1A28A2F11780C3 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		78237E6333481EBF6C23775B50DDD4A5 /* Pods-XXPagingScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXPagingScrollView-dummy.m"; sourceTree = "<group>"; };
+		79E68E20E82463D54202DC37A8F638E7 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		7A7F22B0C54575834654F741BD0584A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838D9B7D9AA3F2FA840FA087EEDBF0DA /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		88B57F77BA92961AE90CDA27388186BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8B959933940EFD8A2476D69A4539B9 /* Pods-XXPagingScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXPagingScrollView-umbrella.h"; sourceTree = "<group>"; };
+		9CC9AB839561AB5908CF089860576048 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		A04593406AA655253A286F95CA2AC9D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A798550D1D7998720516085919D87693 /* Pods-XXPagingScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPagingScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		A9CF2E1C4B74C2D1BF3370CB8237089C /* XXPlaceHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XXPlaceHolder.swift; path = Classes/XXPlaceHolder.swift; sourceTree = "<group>"; };
+		AA18833ACFFD9CCE16EEBC471F428491 /* Pods-XXPagingScrollView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXPagingScrollView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B35FBBD05009E7B86943F2178C67DB05 /* Pods_XXPagingScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXPagingScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD9B321B62AD33A94A600F00AD8E94A6 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		C306AA2894DB244E27B2D2787B30363E /* XXPlaceHolder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXPlaceHolder-dummy.m"; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C48CD66D613721E3FBE670CEF677D7E3 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		C8A5607865051D4F465FB3A3DE0267A7 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		DD70B45FC867216F7E1EF1C6A295BA0C /* Pods-XXPagingScrollView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXPagingScrollView-acknowledgements.plist"; sourceTree = "<group>"; };
+		E487F3F096997259EF03A07A3C665FFA /* Pods-XXPagingScrollView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXPagingScrollView-resources.sh"; sourceTree = "<group>"; };
+		ED4F48EEE3F20B05EA9CF398E6E7BBB7 /* Pods-XXPagingScrollView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXPagingScrollView-frameworks.sh"; sourceTree = "<group>"; };
+		F33D24BE55F6FDD2C7CD18B9C9AC7D47 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		F88F77B732479514857C359DA052445D /* XXPlaceHolder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XXPlaceHolder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3424524F8E21B882B6A9A729FDCDB0 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C6B67F1C8F42243306B78FFB /* Frameworks */ = {
+		497D52CCDD83D54C266739E1EDB3A590 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E852F5583B63BB9AF9689A32 /* Foundation.framework in Frameworks */,
+				446673D043806CD6E4FC5642896107C6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D63DA294913D065684AB0542 /* Frameworks */ = {
+		9FBED8C60BCCD70FD3D7C23A54369BD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499D7E84D5AEA4EAFA7FA3B7 /* Foundation.framework in Frameworks */,
+				F4BB67017D9EAFC3B15299B438C2E7BF /* Foundation.framework in Frameworks */,
+				7A6253404ACF5BC0EF9DBC46C622D505 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2177E55E3D7A35D6756FDEA5E6A4DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B502E985B40B35D6752C435B93FD0C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		142E3E1A37C3A2DC057EFFCA /* iOS */ = {
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				33992DD31A929D75EE8BAB76 /* Foundation.framework */,
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		195C9AD6101896352034A97A = {
+		1E626E58D3C62D820BB035A9B30B3C50 /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
-				18A6F60ED8AD333B9ED3F244 /* Podfile */,
-				ADC575F3C74BA28471259655 /* Frameworks */,
-				8F85638F74D3BE15964ABE81 /* Pods */,
-				C9AC170709B0F7223302326F /* Products */,
-				438A76CF38226D5B4D58EA65 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		438A76CF38226D5B4D58EA65 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EFE8D7FEE7D6173D5636A944 /* Pods-XXPagingScrollView */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8F85638F74D3BE15964ABE81 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C232B66937EB1847220450FB /* SnapKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9E01EB952E650A5DA48315DC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				226F441FE1AC5FCCA08F1A80 /* Info.plist */,
-				351E85D045016E627F5A1D1A /* Pods-XXPagingScrollView-SnapKit.modulemap */,
-				A361B15A30DF91022E26BFEE /* Pods-XXPagingScrollView-SnapKit.xcconfig */,
-				C656237ABF1FA21337F99D43 /* Pods-XXPagingScrollView-SnapKit-Private.xcconfig */,
-				09D4F6EF31A3C7387039787D /* Pods-XXPagingScrollView-SnapKit-dummy.m */,
-				4113E56E2AE23CE59BD6ADE7 /* Pods-XXPagingScrollView-SnapKit-prefix.pch */,
-				C1E60DE6745FFC53C8D03D10 /* Pods-XXPagingScrollView-SnapKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-XXPagingScrollView-SnapKit";
-			sourceTree = "<group>";
-		};
-		ADC575F3C74BA28471259655 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				142E3E1A37C3A2DC057EFFCA /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C232B66937EB1847220450FB /* SnapKit */ = {
-			isa = PBXGroup;
-			children = (
-				82AF5B4C5C199FE11E498AE2 /* Constraint.swift */,
-				D9CE22D549CEE8439966F201 /* ConstraintAttributes.swift */,
-				A4566E8AEF53812C6B711F2F /* ConstraintDescription.swift */,
-				D0FC4F90287B132510D646D0 /* ConstraintItem.swift */,
-				769B3D4FEBDC926B079FAE22 /* ConstraintMaker.swift */,
-				EB107F8E9C3D36D92CA134FD /* ConstraintRelation.swift */,
-				67E3929FE6D55D82512CEC76 /* Debugging.swift */,
-				6025D5B65862CC0DE5CFC115 /* EdgeInsets.swift */,
-				88DC6BA45CD2255A19E1F66A /* LayoutConstraint.swift */,
-				66EDA3B8A6E27D3BBB363EBB /* SnapKit.swift */,
-				68F2731FC055712F59C5FBC7 /* View+SnapKit.swift */,
-				1B77E0EF764C1A656463970A /* ViewController+SnapKit.swift */,
-				9E01EB952E650A5DA48315DC /* Support Files */,
+				1814F7D5C25473729F4E1F27C7CE8601 /* Constraint.swift */,
+				C48CD66D613721E3FBE670CEF677D7E3 /* ConstraintAttributes.swift */,
+				838D9B7D9AA3F2FA840FA087EEDBF0DA /* ConstraintDescription.swift */,
+				5B5C877D444B3B6150D5D23A960A5DD1 /* ConstraintItem.swift */,
+				BD9B321B62AD33A94A600F00AD8E94A6 /* ConstraintMaker.swift */,
+				709FB898A2F8CD3A524AA388DFC8561A /* ConstraintRelation.swift */,
+				F33D24BE55F6FDD2C7CD18B9C9AC7D47 /* Debugging.swift */,
+				05BF66EE371FFC2C547BB74EF1AF93BF /* EdgeInsets.swift */,
+				1663AFF6727DAA26157A567EA5C133A3 /* LayoutConstraint.swift */,
+				4698637516E96DDB07FE407424C7FA86 /* SnapKit.swift */,
+				7397EDD6D4324ABA493F65C791A50E6B /* View+SnapKit.swift */,
+				752C9DB1DAC1E5667D1A28A2F11780C3 /* ViewController+SnapKit.swift */,
+				8FACC6BF70A49E19DE5128BD25FE1393 /* Support Files */,
 			);
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
-		C9AC170709B0F7223302326F /* Products */ = {
+		42713E112AD446C6AF755422FF175C6E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3949AFCA5B2958430E23F3BF /* Pods_XXPagingScrollView.framework */,
-				959694EA8EABCD4A10276D3B /* SnapKit.framework */,
+				617C3D138FC6F9E680007094BEA4A154 /* Pods-XXPagingScrollView */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EFE8D7FEE7D6173D5636A944 /* Pods-XXPagingScrollView */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28ADD602326A08BB689B18E2 /* Info.plist */,
-				46BEAA027750EE664CE540B6 /* Pods-XXPagingScrollView.modulemap */,
-				804E86A864E5454C9248C8C3 /* Pods-XXPagingScrollView-acknowledgements.markdown */,
-				B86A6AD490B8130CC0BC3718 /* Pods-XXPagingScrollView-acknowledgements.plist */,
-				BF47DD4BDDA9757DD977D3B5 /* Pods-XXPagingScrollView-dummy.m */,
-				3B616987EDAAC42D58EE80BD /* Pods-XXPagingScrollView-environment.h */,
-				24B4EDB46712FA0A87C974FA /* Pods-XXPagingScrollView-frameworks.sh */,
-				74B37CBDA473BEDEC540886D /* Pods-XXPagingScrollView-resources.sh */,
-				86B0B4F9972C838E7840CA48 /* Pods-XXPagingScrollView-umbrella.h */,
-				7F19E030964B78B2F1224DA1 /* Pods-XXPagingScrollView.debug.xcconfig */,
-				FA9A5F7E6D524F664BD0C555 /* Pods-XXPagingScrollView.release.xcconfig */,
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		617C3D138FC6F9E680007094BEA4A154 /* Pods-XXPagingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				88B57F77BA92961AE90CDA27388186BB /* Info.plist */,
+				19E77F0BE03102F1D949C6FC8030113C /* Pods-XXPagingScrollView.modulemap */,
+				AA18833ACFFD9CCE16EEBC471F428491 /* Pods-XXPagingScrollView-acknowledgements.markdown */,
+				DD70B45FC867216F7E1EF1C6A295BA0C /* Pods-XXPagingScrollView-acknowledgements.plist */,
+				78237E6333481EBF6C23775B50DDD4A5 /* Pods-XXPagingScrollView-dummy.m */,
+				ED4F48EEE3F20B05EA9CF398E6E7BBB7 /* Pods-XXPagingScrollView-frameworks.sh */,
+				E487F3F096997259EF03A07A3C665FFA /* Pods-XXPagingScrollView-resources.sh */,
+				8D8B959933940EFD8A2476D69A4539B9 /* Pods-XXPagingScrollView-umbrella.h */,
+				0351E4D590F87198726AB28E91EF0FE9 /* Pods-XXPagingScrollView.debug.xcconfig */,
+				A798550D1D7998720516085919D87693 /* Pods-XXPagingScrollView.release.xcconfig */,
 			);
 			name = "Pods-XXPagingScrollView";
 			path = "Target Support Files/Pods-XXPagingScrollView";
 			sourceTree = "<group>";
 		};
+		6F4E1778EBEEB294001A5AE6E9214B87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A7F22B0C54575834654F741BD0584A2 /* Info.plist */,
+				6DE0135EEB35493EB6DFB3F3B7AF2095 /* XXPlaceHolder.modulemap */,
+				16027708FB6F890B85A78982C9936D04 /* XXPlaceHolder.xcconfig */,
+				C306AA2894DB244E27B2D2787B30363E /* XXPlaceHolder-dummy.m */,
+				173013BD48329F6FD04D271CC181AB0C /* XXPlaceHolder-prefix.pch */,
+				582639193AB66F57BAC6A9665909A78D /* XXPlaceHolder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XXPlaceHolder";
+			sourceTree = "<group>";
+		};
+		7363189C622FD71F3A3BBB40A701EFA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E626E58D3C62D820BB035A9B30B3C50 /* SnapKit */,
+				8F68AF1C699908C4D929821B3511B3FE /* XXPlaceHolder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7363189C622FD71F3A3BBB40A701EFA1 /* Pods */,
+				A03B6AA611CD1CB172D3987CE1A0EDE3 /* Products */,
+				42713E112AD446C6AF755422FF175C6E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F68AF1C699908C4D929821B3511B3FE /* XXPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				A9CF2E1C4B74C2D1BF3370CB8237089C /* XXPlaceHolder.swift */,
+				6F4E1778EBEEB294001A5AE6E9214B87 /* Support Files */,
+			);
+			path = XXPlaceHolder;
+			sourceTree = "<group>";
+		};
+		8FACC6BF70A49E19DE5128BD25FE1393 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A04593406AA655253A286F95CA2AC9D8 /* Info.plist */,
+				213F2A2C3C20949D3BB085E0B72468B2 /* SnapKit.modulemap */,
+				9CC9AB839561AB5908CF089860576048 /* SnapKit.xcconfig */,
+				2749F6000A96B20D010BC8172BB0500E /* SnapKit-dummy.m */,
+				79E68E20E82463D54202DC37A8F638E7 /* SnapKit-prefix.pch */,
+				C8A5607865051D4F465FB3A3DE0267A7 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		A03B6AA611CD1CB172D3987CE1A0EDE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B35FBBD05009E7B86943F2178C67DB05 /* Pods_XXPagingScrollView.framework */,
+				FB3424524F8E21B882B6A9A729FDCDB0 /* SnapKit.framework */,
+				F88F77B732479514857C359DA052445D /* XXPlaceHolder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4DA541BB56D0874C157BB5F0 /* Headers */ = {
+		72162FBADCF3B78F761E4B5160CC7B4B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84294CF6155244D4B2BE31BF /* Pods-XXPagingScrollView-umbrella.h in Headers */,
+				B8A8FCCB32593616A07A31A4DD524E70 /* XXPlaceHolder-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8568561C7BB6CCA73B6602D1 /* Headers */ = {
+		9C9916B9D9D663A7BA379C327FABAD87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655D399D6B81CBA05288B349 /* Pods-XXPagingScrollView-SnapKit-umbrella.h in Headers */,
+				191EDB90014D64F20AF5FD4BBE346CF9 /* Pods-XXPagingScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03B15632F178A38BC62080B88456967 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8DF1D3E17801E3309821ED4B4B6CC0 /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4554B6894285D5EA7AB91208 /* Pods-XXPagingScrollView-SnapKit */ = {
+		793722FC747D3B0E7721C61C50294E0C /* XXPlaceHolder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0951AD74335AC76C2C299A4B /* Build configuration list for PBXNativeTarget "Pods-XXPagingScrollView-SnapKit" */;
+			buildConfigurationList = 116D60624C7D55A5F15737281382C690 /* Build configuration list for PBXNativeTarget "XXPlaceHolder" */;
 			buildPhases = (
-				9C8AB951CC36726D6B74B85F /* Sources */,
-				D63DA294913D065684AB0542 /* Frameworks */,
-				8568561C7BB6CCA73B6602D1 /* Headers */,
+				E852DF393D8FE48F8225F1E0B8725442 /* Sources */,
+				9FBED8C60BCCD70FD3D7C23A54369BD3 /* Frameworks */,
+				72162FBADCF3B78F761E4B5160CC7B4B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-XXPagingScrollView-SnapKit";
-			productName = "Pods-XXPagingScrollView-SnapKit";
-			productReference = 959694EA8EABCD4A10276D3B /* SnapKit.framework */;
+			name = XXPlaceHolder;
+			productName = XXPlaceHolder;
+			productReference = F88F77B732479514857C359DA052445D /* XXPlaceHolder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B833BDD5BE9DF54D1D3CC380 /* Pods-XXPagingScrollView */ = {
+		7EC318BA81956A4FDC2397A394D464B5 /* Pods-XXPagingScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E9824E7607350754CDAD2AB /* Build configuration list for PBXNativeTarget "Pods-XXPagingScrollView" */;
+			buildConfigurationList = 29644CAF25359807E4DC066293C57413 /* Build configuration list for PBXNativeTarget "Pods-XXPagingScrollView" */;
 			buildPhases = (
-				C0EF61D4866BB14B89117DCB /* Sources */,
-				C6B67F1C8F42243306B78FFB /* Frameworks */,
-				4DA541BB56D0874C157BB5F0 /* Headers */,
+				B14DC176E4409B34F72A44E9F7CB9185 /* Sources */,
+				497D52CCDD83D54C266739E1EDB3A590 /* Frameworks */,
+				9C9916B9D9D663A7BA379C327FABAD87 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				87A544FB77678FE419AFF55B /* PBXTargetDependency */,
+				5706C89E65FD5297584197C318A9CD58 /* PBXTargetDependency */,
+				1AE195E74142C924E9F4A54B1C80681B /* PBXTargetDependency */,
 			);
 			name = "Pods-XXPagingScrollView";
 			productName = "Pods-XXPagingScrollView";
-			productReference = 3949AFCA5B2958430E23F3BF /* Pods_XXPagingScrollView.framework */;
+			productReference = B35FBBD05009E7B86943F2178C67DB05 /* Pods_XXPagingScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87031406C6975D7E40B14C4AFB6A43E4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07309EEB3F9B3D1B059B75250E99A94 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				5B74136A56195C9262C79B03E3E5D210 /* Sources */,
+				EA2177E55E3D7A35D6756FDEA5E6A4DD /* Frameworks */,
+				B03B15632F178A38BC62080B88456967 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = FB3424524F8E21B882B6A9A729FDCDB0 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4FD044CF16CF6E7034CFB7A3 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = EE012E138AFF8075A5333E25 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 195C9AD6101896352034A97A;
-			productRefGroup = C9AC170709B0F7223302326F /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A03B6AA611CD1CB172D3987CE1A0EDE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B833BDD5BE9DF54D1D3CC380 /* Pods-XXPagingScrollView */,
-				4554B6894285D5EA7AB91208 /* Pods-XXPagingScrollView-SnapKit */,
+				7EC318BA81956A4FDC2397A394D464B5 /* Pods-XXPagingScrollView */,
+				87031406C6975D7E40B14C4AFB6A43E4 /* SnapKit */,
+				793722FC747D3B0E7721C61C50294E0C /* XXPlaceHolder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9C8AB951CC36726D6B74B85F /* Sources */ = {
+		5B74136A56195C9262C79B03E3E5D210 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A06EFE2A2993A19B341EC6 /* Constraint.swift in Sources */,
-				C405FD21F8756D4FC814AF76 /* ConstraintAttributes.swift in Sources */,
-				8195ECD6112D0CAAC49DEDB3 /* ConstraintDescription.swift in Sources */,
-				C462715122AE363B739EDD90 /* ConstraintItem.swift in Sources */,
-				865C98803E21999DF994BC93 /* ConstraintMaker.swift in Sources */,
-				DCBAA9B37C63E88F42B81900 /* ConstraintRelation.swift in Sources */,
-				42C9EDB31C1033237E84CD67 /* Debugging.swift in Sources */,
-				DBE47A591B9AA49C7AE4E978 /* EdgeInsets.swift in Sources */,
-				95E0F0789668DA0871572A32 /* LayoutConstraint.swift in Sources */,
-				3DCD22EC957D42D8818F5E6E /* Pods-XXPagingScrollView-SnapKit-dummy.m in Sources */,
-				FD26693F08DF75A2CE675A7E /* SnapKit.swift in Sources */,
-				247D035AA60BD4155A108A28 /* View+SnapKit.swift in Sources */,
-				8C5139C1651261A02E4E7C9F /* ViewController+SnapKit.swift in Sources */,
+				78ABBF4735F58695A08D9E0C9913E42B /* Constraint.swift in Sources */,
+				E33B0CA8AD2CC53992942FABDD296867 /* ConstraintAttributes.swift in Sources */,
+				78B3F63AB151CC00D920FFBD50D3393C /* ConstraintDescription.swift in Sources */,
+				88CA5FB472918A450F0D932A30A9182E /* ConstraintItem.swift in Sources */,
+				EA7B253F41129AAD1E39355AB60A28E3 /* ConstraintMaker.swift in Sources */,
+				43974957AD79E840348FC661CB4E929E /* ConstraintRelation.swift in Sources */,
+				028AB08BBBAA5653EF45970B19111E0C /* Debugging.swift in Sources */,
+				89896E5917D4C9C3558D6BE5E147F79A /* EdgeInsets.swift in Sources */,
+				5967135C0D97C2CB21F86B010847152A /* LayoutConstraint.swift in Sources */,
+				C97B7538B7E270E5506C343C8E0DE9EB /* SnapKit-dummy.m in Sources */,
+				11FC12A9B0E6FEDB3B26F3F1084CD8CE /* SnapKit.swift in Sources */,
+				4DAD509D2F7BA5485F6EDF1D9ED237CA /* View+SnapKit.swift in Sources */,
+				63B2E7775D457BE3BC3BAB3D0E45F46D /* ViewController+SnapKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0EF61D4866BB14B89117DCB /* Sources */ = {
+		B14DC176E4409B34F72A44E9F7CB9185 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB35459AE33E795DF56E376E /* Pods-XXPagingScrollView-dummy.m in Sources */,
+				DEF22FADD55C342CC5F3AC3D46DF0299 /* Pods-XXPagingScrollView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E852DF393D8FE48F8225F1E0B8725442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86815EE3A8E73035E2E153DF313BEAB9 /* XXPlaceHolder-dummy.m in Sources */,
+				3C29E85736D3F42366F2C17AAD5BDB72 /* XXPlaceHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		87A544FB77678FE419AFF55B /* PBXTargetDependency */ = {
+		1AE195E74142C924E9F4A54B1C80681B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-XXPagingScrollView-SnapKit";
-			target = 4554B6894285D5EA7AB91208 /* Pods-XXPagingScrollView-SnapKit */;
-			targetProxy = 113FEE96677200E286D6EFAC /* PBXContainerItemProxy */;
+			name = XXPlaceHolder;
+			target = 793722FC747D3B0E7721C61C50294E0C /* XXPlaceHolder */;
+			targetProxy = EF3530C9389380BAF62B152BBE3B58AA /* PBXContainerItemProxy */;
+		};
+		5706C89E65FD5297584197C318A9CD58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 87031406C6975D7E40B14C4AFB6A43E4 /* SnapKit */;
+			targetProxy = 6C2542CC17A65215B1D4F16C3F99C8CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D1F7680BC02AE2DFA18283F /* Release */ = {
+		367AA032FE6E4D1FB76A930C645B03B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C656237ABF1FA21337F99D43 /* Pods-XXPagingScrollView-SnapKit-Private.xcconfig */;
+			baseConfigurationReference = 0351E4D590F87198726AB28E91EF0FE9 /* Pods-XXPagingScrollView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -335,12 +430,98 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-XXPagingScrollView-SnapKit/Pods-XXPagingScrollView-SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-XXPagingScrollView-SnapKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-XXPagingScrollView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-XXPagingScrollView-SnapKit/Pods-XXPagingScrollView-SnapKit.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXPagingScrollView/Pods-XXPagingScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_XXPagingScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		614F8E8F717A088B48C9F37F1234C9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16027708FB6F890B85A78982C9936D04 /* XXPlaceHolder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XXPlaceHolder/XXPlaceHolder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XXPlaceHolder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XXPlaceHolder/XXPlaceHolder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XXPlaceHolder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E3EF944204BED03DF3CDBD41075C56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16027708FB6F890B85A78982C9936D04 /* XXPlaceHolder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XXPlaceHolder/XXPlaceHolder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XXPlaceHolder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XXPlaceHolder/XXPlaceHolder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XXPlaceHolder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E24D2E2E5CAB93FA2BADEF09B354C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC9AB839561AB5908CF089860576048 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
@@ -351,7 +532,37 @@
 			};
 			name = Release;
 		};
-		3D2AD92F4F3F356FFEEEEFD0 /* Debug */ = {
+		9EE4692F74C6646AF14DC8F3B10B3488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A798550D1D7998720516085919D87693 /* Pods-XXPagingScrollView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XXPagingScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XXPagingScrollView/Pods-XXPagingScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_XXPagingScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,16 +594,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6A17E092F53773E488E83595 /* Debug */ = {
+		E78D0706501EA258A8BEEF37909464AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F19E030964B78B2F1224DA1 /* Pods-XXPagingScrollView.debug.xcconfig */;
+			baseConfigurationReference = 9CC9AB839561AB5908CF089860576048 /* SnapKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -401,16 +612,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-XXPagingScrollView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-XXPagingScrollView/Pods-XXPagingScrollView.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_XXPagingScrollView;
+				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -420,7 +629,7 @@
 			};
 			name = Debug;
 		};
-		8AB66A45074F5CF5C642FAA5 /* Release */ = {
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -447,101 +656,53 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9A687EE79B9551F709F84A2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA9A5F7E6D524F664BD0C555 /* Pods-XXPagingScrollView.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-XXPagingScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-XXPagingScrollView/Pods-XXPagingScrollView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_XXPagingScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E3B9C6102F9EB53C9D76FE94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C656237ABF1FA21337F99D43 /* Pods-XXPagingScrollView-SnapKit-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-XXPagingScrollView-SnapKit/Pods-XXPagingScrollView-SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-XXPagingScrollView-SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-XXPagingScrollView-SnapKit/Pods-XXPagingScrollView-SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0951AD74335AC76C2C299A4B /* Build configuration list for PBXNativeTarget "Pods-XXPagingScrollView-SnapKit" */ = {
+		116D60624C7D55A5F15737281382C690 /* Build configuration list for PBXNativeTarget "XXPlaceHolder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3B9C6102F9EB53C9D76FE94 /* Debug */,
-				0D1F7680BC02AE2DFA18283F /* Release */,
+				614F8E8F717A088B48C9F37F1234C9E4 /* Debug */,
+				6E3EF944204BED03DF3CDBD41075C56D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E9824E7607350754CDAD2AB /* Build configuration list for PBXNativeTarget "Pods-XXPagingScrollView" */ = {
+		29644CAF25359807E4DC066293C57413 /* Build configuration list for PBXNativeTarget "Pods-XXPagingScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A17E092F53773E488E83595 /* Debug */,
-				9A687EE79B9551F709F84A2B /* Release */,
+				367AA032FE6E4D1FB76A930C645B03B5 /* Debug */,
+				9EE4692F74C6646AF14DC8F3B10B3488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE012E138AFF8075A5333E25 /* Build configuration list for PBXProject "Pods" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D2AD92F4F3F356FFEEEEFD0 /* Debug */,
-				8AB66A45074F5CF5C642FAA5 /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07309EEB3F9B3D1B059B75250E99A94 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78D0706501EA258A8BEEF37909464AD /* Debug */,
+				9E24D2E2E5CAB93FA2BADEF09B354C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4FD044CF16CF6E7034CFB7A3 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

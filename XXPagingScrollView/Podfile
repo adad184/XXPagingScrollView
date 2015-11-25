@@ -6,6 +6,7 @@ use_frameworks!
 target 'XXPagingScrollView' do
 
 pod "SnapKit"
+pod "XXPlaceHolder"
 
 end
 

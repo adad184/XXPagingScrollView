@@ -1,10 +1,13 @@
 PODS:
-  - SnapKit (0.12.0)
+  - SnapKit (0.15.0)
+  - XXPlaceHolder (1.1)
 
 DEPENDENCIES:
   - SnapKit
+  - XXPlaceHolder
 
 SPEC CHECKSUMS:
-  SnapKit: 00c388aa3bf1944c1b55472f31e841f75bd83882
+  SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
+  XXPlaceHolder: 0e7da0129f0ab34c2a04dbb33b62aee6b1d5e1f7
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.39.0

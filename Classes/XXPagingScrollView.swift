@@ -22,9 +22,9 @@ public class XXPagingScrollView: UIView {
             }
             else {
                 widthContraint?.deactivate()
-                self.scrollView.snp_updateConstraints({ (make) -> Void in
+                self.scrollView.snp_updateConstraints{ (make) -> Void in
                     make.width.equalTo(self.pagingWidth)
-                })
+                }
             }
         }
     }
@@ -37,9 +37,9 @@ public class XXPagingScrollView: UIView {
             }
             else {
                 heightContraint?.deactivate()
-                self.scrollView.snp_updateConstraints({ (make) -> Void in
+                self.scrollView.snp_updateConstraints{ (make) -> Void in
                     make.height.equalTo(self.pagingHeight)
-                })
+                }
             }
         }
     }
@@ -67,8 +67,12 @@ public class XXPagingScrollView: UIView {
     }
     
     public required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+        super.init(coder: aDecoder)!
         self.setup()
+    }
+    
+    public override func addSubview(view: UIView) {
+        self.scrollView.addSubview(view);
     }
     
     private func setup() {
